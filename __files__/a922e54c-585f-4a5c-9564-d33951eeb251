@@ -1,0 +1,415 @@
+{
+  "id": "3b0079d0-8b4a-43d3-8c86-bb7384569fc3",
+  "version": "2.0",
+  "name": "Z1",
+  "url": "https://kbp.by/",
+  "tests": [{
+    "id": "a4859d29-1367-47fd-9b87-7f0eab43f0f4",
+    "name": "Test1",
+    "commands": [{
+      "id": "e3da59fd-6a8b-4da4-9528-3f15d6b53ab4",
+      "comment": "",
+      "command": "open",
+      "target": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "450a758b-4920-4939-af26-ddd5d43347e3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "2064x1248",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3323c0b5-def9-498f-8bd4-4f910ae67ef0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.skin-vector-legacy",
+      "targets": [
+        ["css=.skin-vector-legacy", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a30a499e-5e9e-4d1d-bc17-a05bd55a8224",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "18a7a9ca-65a7-4a43-b79e-e8822876c300",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchButton",
+      "targets": [
+        ["id=searchButton", "id"],
+        ["name=go", "name"],
+        ["css=#searchButton", "css:finder"],
+        ["xpath=//input[@id='searchButton']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "266abbab-4664-4605-b630-174d9400f996",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=td:nth-child(1) > a:nth-child(2)",
+      "targets": [
+        ["css=td:nth-child(1) > a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Google Chrome')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/table[2]/tbody/tr[2]/td/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Google_Chrome')])[3]", "xpath:href"],
+        ["xpath=//td/a[2]", "xpath:position"]
+      ],
+      "value": "Google Chrome"
+    }]
+  }, {
+    "id": "fec75a46-c785-4db9-ab0b-b2366a6bfabc",
+    "name": "Test2",
+    "commands": [{
+      "id": "af46bc46-592f-42d4-b949-5ec9974e4084",
+      "comment": "",
+      "command": "open",
+      "target": "https://5element.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01f6c272-ab8e-46d3-9d6d-304c2c599e29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x1232",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af7ec37-cd52-4162-a4a9-6070f9a9b34f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.swiper-slide:nth-child(11) > .nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки')]", "xpath:link"],
+        ["xpath=//div[@id='swiper-wrapper-92bac159f2d3620c']/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/1383-noutbuki')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "634643b0-eb97-4c38-8a45-b8acdc975939",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carousel-init > .swiper-button-next",
+      "targets": [
+        ["css=.carousel-init > .swiper-button-next", "css:finder"],
+        ["xpath=//div[@id='app']/header/div/div[2]/div/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b975c060-d4eb-4a54-83f0-e67eca3af6e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.swiper-slide:nth-child(11) > .nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки')]", "xpath:link"],
+        ["xpath=//div[@id='swiper-wrapper-4c4d77bff7659d53']/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/1383-noutbuki')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c61375-c6b0-4b7a-9c28-6e90de25ef7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter-688009 > .filter-body > .filter-item:nth-child(2) .inp-box__view",
+      "targets": [
+        ["css=#filter-688009 > .filter-body > .filter-item:nth-child(2) .inp-box__view", "css:finder"],
+        ["xpath=//div[@id='filter-688009']/div/div[2]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div[2]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8c39be0-95af-47e2-8242-083af6febfd2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter-688009 > .filter-body > .filter-item:nth-child(3) .inp-box__view",
+      "targets": [
+        ["css=#filter-688009 > .filter-body > .filter-item:nth-child(3) .inp-box__view", "css:finder"],
+        ["xpath=//div[@id='filter-688009']/div/div[3]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div[3]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f054b82e-fec7-4cc6-acf6-082abeadc49d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Acer",
+      "targets": [
+        ["linkText=RTX 3050 Ti", "linkText"],
+        ["css=.p-item:nth-child(33) .item-box-link", "css:finder"],
+        ["xpath=//a[contains(text(),'RTX 3050 Ti')]", "xpath:link"],
+        ["xpath=//div[@id='app']/main/div[3]/div/div/div[2]/div/div/div/div/label[33]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://5element.by/catalog/1383-noutbuki/model-videokarty=geforce-rtx-3050-ti;brand=asus,lenovo')]", "xpath:href"],
+        ["xpath=//label[33]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RTX 3050 Ti')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2b95a4a-0e2e-4723-80d4-f257969245c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-container-free-mode",
+      "targets": [
+        ["css=.swiper-container-free-mode", "css:finder"],
+        ["xpath=//div[@id='app']/header/div/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d26dbe0-610d-4259-9dd0-4c90365481bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-container-free-mode",
+      "targets": [
+        ["css=.swiper-container-free-mode", "css:finder"],
+        ["xpath=//div[@id='app']/header/div/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b4d9de-003d-44a4-bc44-f18cf7bee72b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.swiper-container-free-mode",
+      "targets": [
+        ["css=.swiper-container-free-mode", "css:finder"],
+        ["xpath=//div[@id='app']/header/div/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ef90a5-76f9-4345-ae3d-a1ce4f52b01f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.carousel-init > .swiper-button-next",
+      "targets": [
+        ["css=.carousel-init > .swiper-button-next", "css:finder"],
+        ["xpath=//div[@id='app']/header/div/div[2]/div/div[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb3b5b18-80fe-41b1-92ed-22750a44f021",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки",
+      "targets": [
+        ["linkText=Ноутбуки", "linkText"],
+        ["css=.swiper-slide:nth-child(11) > .nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки')]", "xpath:link"],
+        ["xpath=//div[@id='swiper-wrapper-27e0a35938102fc7c']/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/1383-noutbuki')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb8c49a-d172-46e3-8a8c-7a88d74aff12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2022 года",
+      "targets": [
+        ["linkText=2022 года", "linkText"],
+        ["css=.p-item:nth-child(36) .item-box-link", "css:finder"],
+        ["xpath=//a[contains(text(),'2022 года')]", "xpath:link"],
+        ["xpath=//div[@id='app']/main/div[3]/div/div/div[2]/div/div/div/div/label[36]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://5element.by/catalog/1383-noutbuki/god-vyhoda-modeli=2022')]", "xpath:href"],
+        ["xpath=//label[36]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2022 года')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b96e97c-6949-45a8-8142-70d619f5c347",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.aa:nth-child(1) > img",
+      "targets": [
+        ["css=.aa:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='Игровой ноутбук ASUS TUF Gaming F15 FX507ZC4-HN009']", "xpath:img"],
+        ["xpath=//div[@id='app']/main/div[3]/div/div/div[2]/div[2]/div/div/div/div/div/div/a/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5af4612f-2ee1-4e17-8571-1ece13de6f89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Телевизоры",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cefbeea9-bc2b-4a20-ad46-8df1f61a2d44",
+    "name": "Test3",
+    "commands": [{
+      "id": "9170d19d-2ba8-47d0-a739-0863c9287fe9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9ff9d61-b0b3-4c71-a7fd-2bac826c2fd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=АДМИНИСТРАЦИЯ",
+      "targets": [
+        ["linkText=АДМИНИСТРАЦИЯ", "linkText"],
+        ["css=#menu-item-15233 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'АДМИНИСТРАЦИЯ')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15233']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kbp.by/administraciya.html')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'АДМИНИСТРАЦИЯ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52456db3-24a8-4550-90c9-e062408e59c1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=ФОТОГАЛЕРЕЯ",
+      "targets": [
+        ["linkText=ФОТОГАЛЕРЕЯ", "linkText"],
+        ["css=#menu-item-18630 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'ФОТОГАЛЕРЕЯ')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-18630']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://kbp.by/fotogalereya.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/nav/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "ФОТОГАЛЕРЕЯ"
+    }, {
+      "id": "77d1a89a-33c5-4ed1-b894-1c113d4492f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-icon:nth-child(2)",
+      "targets": [
+        ["css=.search-icon:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//aside[@id='search-8']/form/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a58edf8d-ea69-4a72-b36b-cf5fb8d14b28",
+      "comment": "",
+      "command": "type",
+      "target": "name=s",
+      "targets": [
+        ["name=s", "name"],
+        ["css=.s", "css:finder"],
+        ["xpath=//input[@name='s']", "xpath:attributes"],
+        ["xpath=//aside[@id='search-8']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "абитуриент"
+    }]
+  }, {
+    "id": "9b9ddc29-29ea-4393-adec-17d9fa30ed8c",
+    "name": "Test4",
+    "commands": [{
+      "id": "6dc4bb52-c616-4efe-b556-ab0a37f99060",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e197503e-91f2-489c-85cc-94da2b49b1d7",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "КОЛЛЕДЖ БИЗНЕСА И ПРАВА - Колледж бизнеса и права",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afd32f2a-6eb3-44f7-8198-cb7c5ba6f4e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=АБИТУРИЕНТАМ",
+      "targets": [
+        ["linkText=АБИТУРИЕНТАМ", "linkText"],
+        ["css=#menu-item-15222 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'АБИТУРИЕНТАМ')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15222']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'АБИТУРИЕНТАМ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7514caa6-e53d-4905-9d2f-064402118d7c",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "linkText=ИНФОРМАЦИЯ ПРИЕМНОЙ КОМИССИИ",
+      "targets": [],
+      "value": "ИНФОРМАЦИЯ ПРИЕМНОЙ КОМИССИИ"
+    }, {
+      "id": "eefd0602-ea1f-4ed4-beb0-a84577b49419",
+      "comment": "",
+      "command": "open",
+      "target": "https://kbp.by/otdelenie-informacionnyx-texnologij.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "320d69dd-affb-4c2b-9cb2-77ebb9c6b613",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "ОТДЕЛЕНИЕ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ - Колледж бизнеса и права",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "448195c7-3711-4002-bfb3-0c6753551d49",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.entry-content",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "174f813c-9821-440b-9026-c686cca9410b",
+      "comment": "",
+      "command": "open",
+      "target": "https://kbp.by/kontakty.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4531a8f5-cb1f-4c64-b1c1-ef4d06aaf42e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "КОНТАКТЫ - Колледж бизнеса и права",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9980a8e3-c31c-4639-9ebe-ed6c0498df00",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a4859d29-1367-47fd-9b87-7f0eab43f0f4"]
+  }],
+  "urls": ["https://ru.wikipedia.org/", "https://5element.by/", "https://kbp.by/"],
+  "plugins": []
+}
